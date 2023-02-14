@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="media-files/logo.png" alt="Logo" ><span>Musify</span>
+            </div>
+            <div class="options">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="text" name="textButton" placeholder="Search Here" class="searchButton">
+                <span>___</span>
+                <button class="btn">Search</button>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="songList">
+            <h1>Best Hindi Lofi Songs</h1>
+            <div class="songItemContainer">
+                <div class="songItem song1">
+                    <img src="media-files/1.jpg" alt="1">
+                    <span class="songName">Tera Fitoor</span>
+                    <span class="songListPlay"><span class="timeStamp"><span class="songDur">05:34</span> <i id="0" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                    <div class="songItem song2">
+                        <img src="media-files/2.jpg" alt="2">
+                        <span class="songName">Shayad</span>
+                        <span class="songListPlay"><span class="timeStamp">05:34 <i id="1" class="far songItemPlay fa-play-circle mySong"></i></span>
+                    </div>
+                    <div class="songItem song3">
+                        <img src="media-files/3.jpg" alt="3">
+                        <span class="songName">Tum Se Hi</span>
+                        <span class="songListPlay"><span class="timeStamp">05:34 <i id="2" class="far songItemPlay fa-play-circle"></i></span>
+                    </div>
+                    <div class="songItem song4">
+                        <img src="media-files/4.jpg" alt="4">
+                        <span class="songName">Mast Magan</span>
+                        <span class="songListPlay"><span class="timeStamp">05:34 <i id="3" class="far songItemPlay fa-play-circle"></i></span>
+                    </div>
+                    <div class="songItem song5">
+                        <img src="media-files/5.jpg" alt="5">
+                        <span class="songName">Dekh Lena</span>
+                        <span class="songListPlay"><span class="timeStamp">05:34 <i id="4" class="far songItemPlay fa-play-circle"></i></span>
+                    </div>
+                    <div class="songItem song6">
+                        <img src="media-files/6.jpg" alt="6">
+                        <span class="songName">Tose Naina</span>
+                        <span class="songListPlay"><span class="timeStamp">05:34 <i id="5" class="far songItemPlay fa-play-circle"></i></span>
+                    </div>
+                    <div class="songItem song7">
+                        <img src="media-files/7.jpg" alt="7">
+                        <span class="songName">Jashn-E-Bahara</span>
+                        <span class="songListPlay"><span class="timeStamp">05:34 <i id="6" class="far songItemPlay fa-play-circle"></i></span>
+                    </div>
+                    <div class="songItem song8">
+                        <img src="media-files/8.jpg" alt="8">
+                        <span class="songName">Mileya Mileya</span>
+                        <span class="songListPlay"><span class="timeStamp">05:34 <i id="7" class="far songItemPlay fa-play-circle"></i></span>
+                    </div>
+                    <div class="songItem song9">
+                        <img src="media-files/9.jpg" alt="9">
+                        <span class="songName">Kya Mujhe Pyaar Hai</span>
+                        <span class="songListPlay"><span class="timeStamp">05:34 <i id="8" class="far songItemPlay fa-play-circle"></i></span>
+                    </div>
+                    <div class="songItem song10">
+                        <img src="media-files/10.jpg" alt="10">
+                        <span class="songName">Dil Ko Kaarar Aaya</span>
+                        <span class="songListPlay"><span class="timeStamp">05:34 <i id="9" class="far songItemPlay fa-play-circle"></i></span>
+                    </div>
+
+            </div>
+        </div>
+        <div class="songBanner">
+
+        </div>
+    </div>
+    <div class="bottom">
+        <!-- <div class="coverBottom">
+            <img src="1.jpg" alt="" class="bottomImage">
+        </div> -->
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fas fa-2x fa-step-backward" id="previous"></i>
+            <i class="far fa-2x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-2x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo" id="gif">
+            <img src="media-files/playing.gif" alt="" width="42px">  <span id="masterSongName">Tera Fitoor</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/95a3eea823.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
